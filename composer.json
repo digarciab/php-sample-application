@@ -1,6 +1,13 @@
 {
-    "require": {
-        "willdurand/negotiation": "^2.2",
-        "twbs/bootstrap": "^3.3"
+  "require": {
+    "willdurand/negotiation": "^2.2",
+    "twbs/bootstrap": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Service\\": "src/Service/",
+      "Entity\\": "src/Entity/",
+      "Views\\": "src/Views/"
     }
+  }
 }
